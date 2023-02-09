@@ -4,7 +4,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    height: 75vh;
+    height: 85vh;
 }
 
 #nav {
@@ -12,6 +12,7 @@
     justify-content: center;
     height: fit-content;
     background-color: black;
+    height: 70px;
 }
 
 #nav-ul {
@@ -24,15 +25,71 @@
 }
 
 .nav-links{
-    color: white;
-    display: flex;
+    list-style-type: none;
     
 }
 
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
 .title-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 250px;
+}
+
+.title-container h1 {
+    color: white;
+}
+
+.title-container h3 {
+    color: white;
+}
+
+
+/* /////////////////////////////////////////////////////// */
+
+
+
+
+#aboutme-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75vh;
+}
+
+#aboutme-header {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutmeinfo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+}
+
+.aboutme-image {
+    display: flex;
+    height: 250px;
+}
+
+/* img {
+    border-radius: 10px solid black;
+} */
+
+.aboutme-text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 50px;
 }
