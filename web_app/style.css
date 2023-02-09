@@ -1,5 +1,6 @@
 #home-container {
     background-image: url('wallpaper4.jpeg');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -7,25 +8,35 @@
     height: 85vh;
 }
 
-#nav {
+#nav-container {
+    display: flex;
+    width: 100%;
+    height: 44.6vh;
+    align-items: end;
+}
+
+.nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: fit-content;
     background-color: black;
+    width: 100%;
     height: 70px;
+    position: -webkit-sticky;
 }
 
 #nav-ul {
     
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: end;
     width: 100%;
 }
 
 .nav-links{
     list-style-type: none;
+    margin: 20px;
     
 }
 
@@ -227,4 +238,17 @@ flex-direction: column;
 
 .email {
     margin-left: 70px;
+}
+
+/* //////////////////////////////////////////// */
+
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 5;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+   
 }
