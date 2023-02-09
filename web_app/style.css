@@ -246,9 +246,16 @@ flex-direction: column;
 .sticky {
     position: fixed;
     width: 100%;
-    left: 5;
+    left: 0;
     top: 0;
     z-index: 100;
     border-top: 0;
    
 }
+
+
+/* /////////////////////////////// */
+
+.hover {
+    color: gray;
+  }

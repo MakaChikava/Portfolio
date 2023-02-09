@@ -1,6 +1,21 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 $(() => {
+
+
+
        var stickyNavTop = $('.nav').offset().top;
 
 
@@ -20,4 +35,17 @@ $(() => {
     $(window).scroll(function() {
         stickyNav();
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
