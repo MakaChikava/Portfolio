@@ -81,11 +81,9 @@ a:visited {
 .aboutme-image {
     display: flex;
     height: 250px;
+    border: 10px solid black;
 }
 
-/* img {
-    border-radius: 10px solid black;
-} */
 
 .aboutme-text {
     display: flex;
@@ -93,3 +91,5 @@ a:visited {
     width: 500px;
     margin-left: 50px;
 }
+
+/* //////////////////////////////////////////////////////////// */
