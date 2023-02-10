@@ -134,7 +134,7 @@ justify-content: center;
     flex-direction: row;
     
     width: 150vh;
-    border: 10px double rgb(225, 223, 223);
+    border: 10px outset rgb(225, 223, 223);
 }
 .bothcolumns {
     display: flex;
