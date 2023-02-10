@@ -199,8 +199,9 @@ flex-direction: column;
     flex-direction: column;
 }
 
-#socials-header {
+#contact-header {
     display: flex;
+    justify-content: center;
     margin-left: 70px;
 }
 
@@ -208,6 +209,7 @@ flex-direction: column;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .socialimgs {
@@ -221,25 +223,27 @@ flex-direction: column;
 #contact-container {
     display: flex;
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     flex-direction: column;
+    margin-top: 30px;
+   
 }
 
-#contact-header {
+.contactinfo-container {
     display: flex;
-    margin-left: 70px;
-}
+    justify-content: center;
 
+   
+}
 .contact-info {
     display: flex;
     flex-direction: row;
-    width: 70vh;
-    justify-content: space-between;
+    justify-content: center;
+    width: 800px;
+    justify-content: space-around;
+    margin-top: 60px;
 }
 
-.email {
-    margin-left: 70px;
-}
 
 /* //////////////////////////////////////////// */
 
@@ -302,3 +306,91 @@ flex-direction: column;
 
 
   /* ////////////////////////// */
+  
+  
+  #aboutme-header h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+  }
+  .aboutme-text h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 250;
+  }
+
+
+
+
+
+
+
+  #resume-header h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+  }
+  .left-column h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+  }
+.left-column h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.left-column h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.left-column p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 250;
+}
+.left-column ul {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 250;
+    font-size: 15px;
+}
+
+  .right-column h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+  }
+  .right-column h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+  }
+  .right-column ul {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 250;
+    font-size: 15px;
+}
+.right-column h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+
+#portfolio-header h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+  }
+
+
+
+
+  #contact-header h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+  }
+.contact-info h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 250;
+    font-size: 20px;
+}
