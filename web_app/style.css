@@ -74,13 +74,13 @@ a:link {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 78vh;
+    height: 87vh;
 }
 
 #aboutme-header {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #aboutmeinfo-container {
@@ -114,8 +114,9 @@ border: 15px solid black
 #resume-container {
 display: flex;
 flex-direction: column;
+justify-content: center;
 width: 100%;
-height: 120vh;
+height: 150vh;
 }
 
 
@@ -123,12 +124,24 @@ height: 120vh;
 display: flex;
 justify-content: center;
 }
-
+.resumecontent {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.resumeborder {
+    display: flex;
+    flex-direction: row;
+    
+    width: 150vh;
+    border: 10px double rgb(225, 223, 223);
+}
 .bothcolumns {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 150px;
+    
 }
 
 .left-column {
@@ -140,7 +153,11 @@ justify-content: center;
 .right-column {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 40%;
+    margin-right: 30px;
+    margin-top: 150px;
+    
 }
 
 
@@ -173,13 +190,14 @@ flex-direction: column;
 #portfolio-container {
     display: flex;
     width: 100%;
-    height: 75vh;
+    height: 94.2vh;
     flex-direction: column;
 }
 
 #portfolio-header {
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
 
 .portfolioimage-container {
@@ -210,34 +228,32 @@ flex-direction: column;
     justify-content: center;
     margin-left: 70px;
 }
-
-.soon-imgs {
+.contactimgs-container {
+    display: flex;
+    justify-content: center;
+}
+.contact-imgs {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 60px;
+    width: 800px;
 }
 
-.socialimgs {
-    width: auto;
-    height: 150px;
-    margin: 20px;
-}
 
-/* ////////////////////////////////////// */
 
 #contact-container {
     display: flex;
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     flex-direction: column;
-    margin-top: 30px;
    
 }
 
 .contactinfo-container {
     display: flex;
     justify-content: center;
+
 
    
 }
@@ -399,4 +415,49 @@ flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 250;
     font-size: 20px;
+}
+
+
+
+/* //////////////////////////////// */
+/* hover */
+/* /////////////////////////////// */
+
+
+.github {
+    
+    width: 150px;
+    height: 120px;
+}
+.linkedin {
+    
+    width: 150px;
+    height: 120px;
+}
+.insta {
+    width: 150px;
+    height: 120px;
+    
+}
+
+
+.insta:hover {
+    width: 180px;
+    height: 150px;
+    
+
+}
+
+.linkedin:hover {
+    width: 180px;
+    height: 150px;
+    
+
+}
+
+.github:hover {
+    width: 180px;
+    height: 150px;
+    
+
 }

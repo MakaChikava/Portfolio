@@ -9,9 +9,6 @@
 
 
 
-
-
-
 $(() => {
 
 
@@ -35,6 +32,7 @@ $(() => {
     $(window).scroll(function() {
         stickyNav();
     });
+
 
 
 
