@@ -1,3 +1,503 @@
+@media only screen and (max-width: 600px) {
+    
+
+
+    #home-container {
+        background-image: url('wallpaper4.jpeg');
+        background-size:cover;
+        background-position:right;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 70vh;
+        width: 100%;
+        
+    }
+    
+    #nav-container {
+        display: flex;
+        align-items: end;
+        width: 100%;
+        height: 370px;
+      
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        background-color: black;
+        width: 100%;
+        height: 50px;
+        position: -webkit-sticky;
+    }
+    
+    #nav-ul {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        width: 100%;
+        
+    }
+    
+    .nav-links{
+        list-style-type: none;
+       
+    }
+    
+    a:link {
+        text-decoration: none;
+    }
+    
+    .title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 179px;
+        
+    }
+    
+    .title-container h1 {
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        
+    }
+    
+    .title-container h3 {
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 280;
+        font-size: 10px;
+    }
+    
+    
+    /* /////////////////////////////////////////////////////// */
+    
+    
+    
+    
+    #aboutme-container {
+        background-image: linear-gradient(rgb(221, 221, 221), white
+        );
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 87vh;
+        
+    }
+    
+    #aboutme-header {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    #aboutmeinfo-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+    }
+    
+    .aboutme-image {
+        display: flex;
+        justify-content: center;
+        height: 25%;
+        width: 100%;
+    }
+    .me-img {
+    border-radius: 50%;
+    border: 8px solid black
+    }
+    
+    .aboutme-text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    /* //////////////////////////////////////////////////////////// */
+    
+    #resume-container {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 150vh;
+        }
+    
+    
+    
+    
+    #resume-header {
+    display: flex;
+    justify-content: center;
+    }
+    .resumecontent {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .resumeborder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40vh;
+        border: 10px outset rgb(225, 223, 223);
+    }
+    .bothcolumns {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 150px;
+        
+    }
+    
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    
+    .right-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+    }
+    
+    
+    
+    .education-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    
+    
+    .accomplishments-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    .retail-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    .experience-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* //////////////////////////////////////////// */
+    
+    #portfolio-container {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        margin-top: 100vh;
+    }
+    
+    #portfolio-header {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    
+    .portfolioimage-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+        align-items: center;
+    }
+    
+    .soon-img {
+        width: 300px;
+        margin: 20px;
+    }
+    
+    /* /////////////////////////////////// */
+    
+    #socials-container {
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        flex-direction: column;
+    }
+    
+    #contact-header {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .contactimgs-container {
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+    }
+    .contact-imgs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 150px;
+    }
+    
+    
+    
+    #contact-container {
+        display: flex;
+        width: 100%;
+        height: 20vh;
+        flex-direction: column;
+       
+    }
+    
+    .contactinfo-container {
+        display: flex;
+        justify-content: center;
+        height: 60vh;
+    
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 800px;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    
+    /* //////////////////////////////////////////// */
+    
+    
+    .sticky {
+        position:fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        border-top: 0;
+       
+    }
+    
+    
+    /* /////////////////////////////// */
+    
+    
+    .comingsooncontainer {
+        display: flex;
+        height: fit-content;
+        width: fit-content;
+        position: relative;
+        
+    }
+    
+    .overlay {
+        display: flex;
+        position: absolute;
+        transition: all .3s ease;
+        opacity: 0;
+        background-color: ghostwhite;
+    }
+    .comingsooncontainer:hover .overlay {
+        opacity: 0.7;
+    }
+    
+    
+    .text {
+        color: black;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+    
+    .overlayfade {
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: ghostwhite;
+    }
+    
+    .comingsooncontainer:hover .overlaybottom {
+        width: 100%;
+    }
+    
+    
+      /* ////////////////////////// */
+      
+      
+      #aboutme-header h1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 45px;
+        font-weight: 500;
+      }
+      .aboutme-text h4 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 18px;
+        font-weight: 250;
+      }
+    
+    
+    
+    
+    
+    
+    
+      #resume-header h1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 45px;
+        font-weight: 500;
+      }
+      .left-column h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+      }
+    .left-column h4 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+    }
+    .left-column h5 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+    }
+    .left-column p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 15px;
+        font-weight: 250;
+    }
+    .left-column ul {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 250;
+        font-size: 15px;
+    }
+    
+      .right-column h3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+      }
+      .right-column h4 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+      }
+      .right-column ul {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 250;
+        font-size: 15px;
+    }
+    .right-column h5 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+    }
+    
+    
+    
+    
+    
+    #portfolio-header h1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 45px;
+        font-weight: 500;
+      }
+    
+    
+    
+    
+      #contact-header h1 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 45px;
+        font-weight: 500;
+      }
+    .contact-info h4 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 250;
+        font-size: 20px;
+    }
+    
+    
+    
+    /* //////////////////////////////// */
+    /* hover */
+    /* /////////////////////////////// */
+    
+    
+    .github {
+        
+        width: 150px;
+        height: 120px;
+    }
+    .linkedin {
+        
+        width: 150px;
+        height: 120px;
+    }
+    .insta {
+        width: 150px;
+        height: 120px;
+        
+    }
+    
+    
+    .insta:hover {
+        width: 180px;
+        height: 150px;
+        
+    
+    }
+    
+    .linkedin:hover {
+        width: 180px;
+        height: 150px;
+        
+    
+    }
+    
+    .github:hover {
+        width: 180px;
+        height: 150px;
+        
+    
+    }
+    }    
+/* //////////////////////////////////////////////////////////////////////  */
+/*////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////  */
+/* //////////////////////////////////////////////////////////////////////  */
+/* ////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////  */
+/*////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////  */
+/* //////////////////////////////////////////////////////////////////////  */
+/* ////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////  */
+/*////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////  */
+/* //////////////////////////////////////////////////////////////////////  */
+/* ////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////  */
+/*////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////  */
+/* //////////////////////////////////////////////////////////////////////  */
+/* ////////////////////////////////////////////////////////////////////// */
 #home-container {
     background-image: url('wallpaper4.jpeg');
     background-size: cover;
@@ -98,7 +598,6 @@ a:link {
 .aboutme-image {
     display: flex;
     height: 300px;
-    /* border: 10px solid black; */
 }
 .me-img {
 border-radius: 50%;
@@ -467,11 +966,4 @@ flex-direction: column;
 
 /* ///////////////////////// */
 
-
-
-
-
-@media only screen and (max-width: 600px) {
    
-
-}
