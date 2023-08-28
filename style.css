@@ -150,7 +150,6 @@ section{
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-
 }
 
 .section-container{
@@ -276,6 +275,7 @@ section{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    flex-wrap: wrap; /*ADDED*/
 }
 
 .about-details-container{
